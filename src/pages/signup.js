@@ -53,7 +53,7 @@ const SignUp = () => {
   };
 
   useEffect(() => {
-    document.title = "Sign Up - Instagram";
+    document.title = "Sign Up - Instadenick";
   }, []);
 
   return (
