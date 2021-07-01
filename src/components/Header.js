@@ -66,7 +66,7 @@ const Header = () => {
                 <div className="flex items-center cursor-pointer">
                   <Link to={`/p/${user.displayName}`}>
                     <img
-                      className="rounded-full h-8 w-8 flex"
+                      className="rounded-full h-10 w-8 flex"
                       src={`/images/avatars/${user.displayName}.png`}
                       alt={`${user.displayName}`}
                     />

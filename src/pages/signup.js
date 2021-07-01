@@ -132,5 +132,3 @@ const SignUp = () => {
 };
 
 export default SignUp;
-
-// 2:23 check for user created is a duplicate
