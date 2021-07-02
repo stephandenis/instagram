@@ -1,12 +1,14 @@
 // import { useRef } from "react";
 import PropTypes from "prop-types";
+import Header from "./Header";
 
 const Post = ({ content }) => {
   return (
     //components:
     // header, image, actions (like & comment icons), footer, comments
-    <div>
-      <p>I am a post</p>
+
+    <div className="rounded col-span-4 border border-gray-primary mb-16 bg-white">
+      <Header username={content.username} />
     </div>
   );
 };
